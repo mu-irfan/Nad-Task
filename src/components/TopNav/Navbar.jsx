@@ -27,7 +27,7 @@ function Navbar({ onSearchIconClick }) {
   const mobileMenuTransitionClasses = isOpen
     ? "transition ease-out duration-200 opacity-100 scale-100"
     : "transition ease-in duration-150 opacity-0 scale-95";
-  const mobileMenuClasses = `md:hidden ${mobileMenuTransitionClasses}`;
+  const mobileMenuClasses = `md:hidden absolute bg-white w-full ${mobileMenuTransitionClasses}`;
 
   return (
     <nav>
