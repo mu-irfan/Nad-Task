@@ -13,7 +13,7 @@ const HeroSection = ({ isInputFocused }) => {
 
   return (
     <div className="bg-hero-pattern bg-contain">
-      <div className="container mx-auto bg-white flex px-5 pt-3 mt-12 md:flex-row flex-col items-center">
+      <div className="mx-3 bg-white flex px-5 pt-3 mt-12 md:flex-row flex-col items-center">
         <div className="lg:flex-grow lg:w-1/2 lg:pr-24 md:pr-16 flex flex-col mb-16 md:mb-0 items-center text-center md:max-w-lg">
           <img
             src="/assets/images/hero-card-logo.png"
